@@ -1,8 +1,81 @@
-body{
-  background: linear-gradient(
-    to top,
-    rgba(226, 165, 96, 0.877),
-    rgba(243, 231, 68, 0.767)
-  );
+.Foot {
+  font-family: "Courier New", Courier, monospace;
 }
 
+.tituloTips {
+  color: rgba(223, 101, 101, 0.438);
+}
+
+.divTips {
+  color: rgba(36, 78, 28, 0.842);
+}
+
+.mProductos{
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+/* ANIMACIONES */
+
+@keyframes aniProductos {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#aniProductos {
+  animation: aniProductos 1s ease 0s 1 normal forwards;
+}
+
+@keyframes aniVideos {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35),
+      0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.aniVideos {
+  animation: aniVideos 1s ease 0s 1 normal forwards;
+}
+
+@keyframes aniNosotros {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.aniNosotros {
+  animation: aniNosotros 6s ease 0s 1 normal forwards;
+  box-shadow: 6px 6px 7px rgba(177, 171, 172, 0.637);
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 575px) {
+  .imgNosotros {
+    height: 1000px;
+  }
+
+  .imgNosotros2 {
+    height: 160px;
+    width: 210px;
+    margin-top: -30px;
+  }
+
+  .mProductos {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+}
