@@ -24,6 +24,7 @@ html, body {
 }
 .parrafoIndex h4 {
   color: rgb(99, 27, 27);
+  text-align: center;
 }
 
 .btnIndex {
