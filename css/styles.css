@@ -39,7 +39,7 @@ html, body {
   background-color: white;
 }
 
-.carousel {
+.carouselIndex {
   width: 50%;
   margin-left: 25%;
 }
@@ -133,7 +133,7 @@ html, body {
     margin-right: 0px;
   }
 
-  .carousel {
+  .carouselIndex {
     width: auto;
     margin-left: 10%;
   }
