@@ -1,0 +1,140 @@
+html, body {
+  background-color: white;
+}
+
+.Foot {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tituloTips {
+  color: rgba(223, 101, 101, 0.438);
+}
+
+.divTips {
+  color: rgba(36, 78, 28, 0.842);
+}
+
+.mProductos {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.parrafoIndex h1 {
+  color: rgba(216, 58, 118, 0.781);
+}
+.parrafoIndex h4 {
+  color: rgb(99, 27, 27);
+}
+
+.btnIndex {
+  background-color: rgba(35, 161, 35, 0.63);
+}
+.btnIndex:hover {
+  background-color: rgba(177, 85, 85, 0.753);
+}
+
+.cardImg {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+}
+
+.carousel {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* ANIMACIONES */
+@-webkit-keyframes aniProductos {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes aniProductos {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#aniProductos {
+  -webkit-animation: aniProductos 1s ease 0s 1 normal forwards;
+          animation: aniProductos 1s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes aniVideos {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes aniVideos {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+.aniVideos {
+  -webkit-animation: aniVideos 1s ease 0s 1 normal forwards;
+          animation: aniVideos 1s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes aniNosotros {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aniNosotros {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.aniNosotros {
+  -webkit-animation: aniNosotros 6s ease 0s 1 normal forwards;
+          animation: aniNosotros 6s ease 0s 1 normal forwards;
+  box-shadow: 6px 6px 7px rgba(177, 171, 172, 0.637);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 575px) {
+  .imgNosotros {
+    height: 1000px;
+  }
+
+  .imgNosotros2 {
+    height: 160px;
+    width: 210px;
+    margin-top: -30px;
+  }
+
+  .mProductos {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+
+  .cardImg {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .carousel {
+    width: auto;
+    margin-left: 10%;
+  }
+}/*# sourceMappingURL=styles.css.map */
