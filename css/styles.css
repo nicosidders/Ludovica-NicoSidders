@@ -19,12 +19,31 @@ html, body {
   margin-left: 12px;
 }
 
-.parrafoIndex h1 {
+.parrafoLudo h1 {
+  text-align: center;
   color: rgba(216, 58, 118, 0.781);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.parrafoIndex h4 {
+.parrafoLudo h4 {
   color: rgb(99, 27, 27);
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.parrafoLudo h5 {
+  color: rgb(99, 27, 27);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.parrafoPag h1 {
+  text-align: center;
+  color: rgba(216, 58, 118, 0.781);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.parrafoPag h5 {
+  color: rgba(74, 145, 27, 0.692);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .btnIndex {
