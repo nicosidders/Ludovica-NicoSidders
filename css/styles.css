@@ -1,5 +1,10 @@
-html, body {
+html,
+body {
   background-color: white;
+}
+
+.barraNav {
+  opacity: 0.8;
 }
 
 .Foot {
@@ -7,11 +12,11 @@ html, body {
 }
 
 .tituloTips {
-  color: rgba(223, 101, 101, 0.438);
+  color: rgba(223, 101, 101, 0.4392156863);
 }
 
 .divTips {
-  color: rgba(36, 78, 28, 0.842);
+  color: rgba(36, 78, 28, 0.8431372549);
 }
 
 .mProductos {
@@ -19,35 +24,40 @@ html, body {
   margin-left: 12px;
 }
 
-.parrafoLudo h1 {
+.carouselP {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.parrafoLudo h1, .parrafoNosotros h1 {
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgba(216, 58, 118, 0.781);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.parrafoLudo h4 {
-  color: rgb(99, 27, 27);
+.parrafoLudo h4, .parrafoNosotros h4 {
+  color: #631b1b;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.parrafoLudo h5 {
-  color: rgb(99, 27, 27);
+.parrafoLudo h5, .parrafoNosotros h5 {
+  color: #631b1b;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .parrafoPag h1 {
-  text-align: center;
   color: rgba(216, 58, 118, 0.781);
+  text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .parrafoPag h5 {
-  color: rgba(74, 145, 27, 0.692);
+  color: rgba(74, 145, 27, 0.6901960784);
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .btnIndex {
-  background-color: rgba(35, 161, 35, 0.63);
+  background-color: rgba(35, 161, 35, 0.631372549);
 }
 .btnIndex:hover {
   background-color: rgba(177, 85, 85, 0.753);
@@ -60,8 +70,8 @@ html, body {
 }
 
 .carouselIndex {
-  width: 50%;
-  margin-left: 25%;
+  width: 40%;
+  margin-left: 30%;
 }
 
 /* ANIMACIONES */
@@ -154,7 +164,18 @@ html, body {
   }
 
   .carouselIndex {
-    width: auto;
-    margin-left: 10%;
+    width: 65%;
+    margin-left: 17%;
+  }
+
+  .mProductos2 {
+    height: 275px;
+    background-color: rgba(240, 172, 183, 0.123);
+    font-size: small;
+  }
+
+  .carouselP {
+    width: 90%;
+    margin-left: 5%;
   }
 }/*# sourceMappingURL=styles.css.map */

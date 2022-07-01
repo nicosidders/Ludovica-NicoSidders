@@ -1,20 +1,29 @@
 @import "colores";
+
 $colorHover:rgba(177, 85, 85, 0.753);
 
-html, body {
+$tamanioCard: 550px;
+
+
+html,
+body {
     background-color: white;
-  }
+}
+
+.barraNav{
+    opacity: 0.8;
+    }
 
 .Foot {
     font-family: "Courier New", Courier, monospace;
 }
 
 .tituloTips {
-    color: rgba(223, 101, 101, 0.438);
+    color: map-get($map: $coloresFont, $key: tituloPag);
 }
 
 .divTips {
-    color: rgba(36, 78, 28, 0.842);
+    color: map-get($map: $coloresFont, $key: divTip);
 }
 
 .mProductos {
@@ -22,56 +31,67 @@ html, body {
     margin-left: 12px;
 }
 
+.carouselP{
+    width: 60%; 
+    margin-left: 20%;
+}
+
+@mixin textos {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .parrafoLudo {
     h1 {
-        text-align: center;
+        @include textos;
         color: $colorTextoIndex;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     h4 {
-        color: rgb(99, 27, 27);
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: map-get($map: $coloresFont, $key: parrafo2);
+        @include textos;
     }
+
     h5 {
-        color: rgb(99, 27, 27);
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: map-get($map: $coloresFont, $key: parrafo2);
+        @include textos;
     }
 }
 
-.parrafoPag{
+.parrafoNosotros{
+    @extend .parrafoLudo;
+}
+
+.parrafoPag {
     h1 {
-        text-align: center;
+        
         color: $colorTextoIndex;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        @include textos;
     }
 
     h5 {
-        color: rgba(74, 145, 27, 0.692);
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: map-get($map: $coloresFont, $key: parrafosPag);
+        @include textos;
     }
 }
 
 .btnIndex {
-    background-color: rgba(35, 161, 35, 0.63);
-
+    background-color: map-get($map: $coloresFont, $key: btnIndex);
+    
     &:hover {
         background-color: $colorHover;
     }
-} 
+}
 
-.cardImg{
+.cardImg {
     margin-left: 200px;
     margin-right: 200px;
     background-color: white;
-    }
-    
-.carouselIndex{
-    width: 50%;
-    margin-left: 25%;
+}
+
+.carouselIndex {
+    width: 40%;
+    margin-left: 30%;
 }
 
 /* ANIMACIONES */
@@ -136,16 +156,39 @@ html, body {
     .mProductos {
         margin-right: 13px;
         margin-left: 13px;
+
     }
-    .cardImg{
+
+    .cardImg {
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .carouselIndex {
+        width: 65%;
+        margin-left: 17%;
+    }
+
+    .mProductos2 {
+        height: calc($tamanioCard / 2 );
+
+        @if  calc($tamanioCard /2) <=300px {
+            background-color: rgba(240, 172, 183, 0.123);
+            font-size: small;
         }
-        
-    .carouselIndex{
-     width: auto;
-     margin-left: 10%;
-     }   
+
+    }
+
+    .carouselP{
+        width: 90%;
+        margin-left: 5%;
+    }
 
 
 }
+
+
+
+
+
+
