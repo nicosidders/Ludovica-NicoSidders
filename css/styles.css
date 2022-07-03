@@ -34,7 +34,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgba(216, 58, 118, 0.781);
 }
-.parrafoLudo h4, .parrafoNosotros h4 {
+.parrafoLudo h2, .parrafoNosotros h2 {
   color: #631b1b;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -50,7 +50,7 @@ body {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.parrafoPag h5 {
+.parrafoPag h2 {
   color: rgba(74, 145, 27, 0.6901960784);
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -180,6 +180,10 @@ body {
     height: 275px;
     background-color: rgba(240, 172, 183, 0.123);
     font-size: small;
+  }
+
+  .barraNav {
+    opacity: 10;
   }
 
   .carouselP {

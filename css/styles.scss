@@ -39,6 +39,7 @@ body {
 @mixin textos {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .parrafoLudo {
@@ -47,7 +48,7 @@ body {
         color: $colorTextoIndex;
     }
 
-    h4 {
+    h2 {
         color: map-get($map: $coloresFont, $key: parrafo2);
         @include textos;
     }
@@ -69,7 +70,7 @@ body {
         @include textos;
     }
 
-    h5 {
+    h2 {
         color: map-get($map: $coloresFont, $key: parrafosPag);
         @include textos;
     }
@@ -186,6 +187,10 @@ body {
             font-size: small;
         }
 
+    }
+
+    .barraNav {
+        opacity: 10;
     }
 
     .carouselP {
