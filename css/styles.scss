@@ -38,13 +38,18 @@ body {
 
 @mixin textos {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    font-size: large;
+}
+
+@mixin h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
 .parrafoLudo {
     h1 {
-        @include textos;
+        @include h1;
         color: $colorTextoIndex;
     }
 
@@ -67,7 +72,7 @@ body {
     h1 {
 
         color: $colorTextoIndex;
-        @include textos;
+        @include h1;
     }
 
     h2 {
