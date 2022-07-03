@@ -3,8 +3,12 @@ body {
   background-color: white;
 }
 
-.barraNav {
-  opacity: 0.8;
+.navColor {
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.562);
+}
+.navColor:hover {
+  background-color: rgba(177, 85, 85, 0.753);
 }
 
 .Foot {
@@ -183,10 +187,6 @@ body {
     height: 275px;
     background-color: rgba(240, 172, 183, 0.123);
     font-size: small;
-  }
-
-  .barraNav {
-    opacity: 10;
   }
 
   .carouselP {

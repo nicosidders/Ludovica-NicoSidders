@@ -10,8 +10,12 @@ body {
     background-color: white;
 }
 
-.barraNav {
-    opacity: 0.8;
+.navColor{
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.562);
+    &:hover {
+        background-color: $colorHover;
+    }
 }
 
 .Foot {
@@ -35,6 +39,7 @@ body {
     width: 60%;
     margin-left: 20%;
 }
+
 
 @mixin textos {
     text-align: center;
@@ -192,10 +197,6 @@ body {
             font-size: small;
         }
 
-    }
-
-    .barraNav {
-        opacity: 10;
     }
 
     .carouselP {
