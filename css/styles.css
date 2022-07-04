@@ -6,6 +6,7 @@ body {
 .navColor {
   font-size: large;
   background-color: rgba(0, 0, 0, 0.562);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .navColor:hover {
   background-color: rgba(177, 85, 85, 0.753);
@@ -152,8 +153,9 @@ body {
 @media screen and (max-width: 575px) {
   .navColor {
     font-size: medium;
-    background-color: rgba(172, 150, 103, 0.733);
+    background-color: rgba(172, 150, 103, 0.658);
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
   .navColor:hover {
     background-color: rgba(177, 85, 85, 0.753);

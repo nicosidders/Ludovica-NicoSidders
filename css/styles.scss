@@ -16,6 +16,7 @@ body {
     &:hover {
         background-color: $colorHover;
     }
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Foot {
@@ -157,11 +158,12 @@ body {
 
     .navColor{
         font-size: medium;
-        background-color: rgba(172, 150, 103, 0.733);
+        background-color: rgba(172, 150, 103, 0.658);
         &:hover {
             background-color: $colorHover;
         }
         text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
         }
 
