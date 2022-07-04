@@ -10,6 +10,8 @@ body {
     background-color: white;
 }
 
+
+
 .navColor{
     font-size: large;
     background-color: rgba(0, 0, 0, 0.562);
@@ -158,7 +160,7 @@ body {
 
     .navColor{
         font-size: medium;
-        background-color: rgba(172, 150, 103, 0.658);
+        background-color: rgba(168, 154, 123, 0.788);
         &:hover {
             background-color: $colorHover;
         }
