@@ -150,6 +150,15 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+  .navColor {
+    font-size: medium;
+    background-color: rgba(221, 186, 112, 0.733);
+    text-align: center;
+  }
+  .navColor:hover {
+    background-color: rgba(177, 85, 85, 0.753);
+  }
+
   .hola {
     text-align: center;
   }
