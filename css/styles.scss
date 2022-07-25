@@ -155,6 +155,19 @@ body {
     box-sizing: border-box;
 }
 
+@keyframes aniIndex {
+	0% {
+		transform: scaleX(0.4);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+.aniIndex{
+    animation: aniIndex 2s ease 0s 1 normal forwards;
+}
 
 @media screen and (max-width: 575px) {
 

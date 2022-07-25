@@ -58,7 +58,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .parrafoPag h2 {
-  color: rgba(74, 145, 27, 0.6901960784);
+  color: rgba(26, 43, 15, 0.6901960784);
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: large;
@@ -148,6 +148,28 @@ body {
           animation: aniNosotros 6s ease 0s 1 normal forwards;
   box-shadow: 6px 6px 7px rgba(177, 171, 172, 0.637);
   box-sizing: border-box;
+}
+
+@-webkit-keyframes aniIndex {
+  0% {
+    transform: scaleX(0.4);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes aniIndex {
+  0% {
+    transform: scaleX(0.4);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.aniIndex {
+  -webkit-animation: aniIndex 2s ease 0s 1 normal forwards;
+          animation: aniIndex 2s ease 0s 1 normal forwards;
 }
 
 @media screen and (max-width: 575px) {
